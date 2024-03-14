@@ -1,0 +1,126 @@
+
+#prevbutton
+{
+  margin-top: -100px;
+}
+#nextbutton{
+  margin-top: -100px;
+}
+.class0forcards{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.class1forcards {
+  overflow: hidden;
+  width: 100%;
+}
+
+.class2forcards {
+  display: flex;
+  width: 100%; 
+  transition: transform 0.5s ease;
+}
+
+
+.class3forcards {
+  flex: 0 0 auto;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box; 
+}
+
+.title {
+  font-family: 'Bitter', serif;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.class4forcards {
+  display: flex;
+  align-items: center; 
+}
+
+.carousel-containerforcards {
+  display: flex;
+  overflow: hidden;
+}
+
+.class6forcards {
+  flex: 0 0 auto;
+  transition: transform 0.3s ease;
+  margin-left: 30px;
+}
+
+.class8forcards {
+  height: 182px;
+  width: 273px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.class9forcards {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev-buttonforcards,
+.next-buttonforcards {
+
+  background-color: #9c2b2b;
+  border: 1px solid #9c1717;
+  padding: 5px;
+  cursor: pointer;
+}
+
+
+
+.carousel-containerforcards {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.active {
+  transform: translateX(0); 
+}
+
+.prev-buttonforcards,
+.next-buttonforcards {
+  position: absolute;
+  top: 128%;
+  left: 90%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  font-size: 50px;
+  background: transparent;
+  border: none;
+  color: rgb(51, 51, 51);
+}
+
+.prev-buttonforcards {
+  right: 100px;
+ 
+}
+
+.next-buttonforcards {
+ right:10px;
+}
+
+.restaurant-description{
+    margin-top: 20px;
+    font-weight: bold;
+    /* text-align: center; */
+}
+.ratings-restaurant{
+    margin-top: -152px;
+    margin-left: 25px;
+    margin-right: 300px;
+    font-weight: bold;
+    font-size: 16px;
+    /* text-align: center; */
+}
+.location{
+    margin-top: -10px;
+}
